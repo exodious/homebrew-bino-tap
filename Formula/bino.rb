@@ -1,7 +1,7 @@
 class Bino < Formula
   desc "3D video player with support for 180/360 video and Virtual Reality"
   homepage "https://bino3d.org"
-  url "https://github.com/marlam/bino.git", tag: "bino-2.5"
+  url "https://github.com/marlam/bino.git", tag: "bino-2.2"
   license "GPL-3.0-or-later"
   head "https://github.com/marlam/bino.git", branch: "main"
 
