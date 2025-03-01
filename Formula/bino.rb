@@ -9,7 +9,7 @@ class Bino < Formula
   depends_on "qt@6"
 
   def install
-    system "cmake", "-S", ".", "-B", "build", "-D", "QVR_FOUND=OFF", *std_cmake_args
+    system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     system "make", "-C", "build", "-j", "4"
     system "cmake", "--install", "build"
   end
